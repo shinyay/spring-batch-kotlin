@@ -1,5 +1,6 @@
-package io.pivotal.shinyay.batch.entity
+package io.pivotal.shinyay.batch
 
+import io.pivotal.shinyay.batch.entity.Employee
 import org.springframework.batch.item.ItemProcessor
 
 class DepartmentProcessor : ItemProcessor<Employee, Employee> {
