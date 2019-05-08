@@ -1,8 +1,8 @@
 package io.pivotal.shinyay.batch.entity
 
 data class Employee (
-        val id: String,
-        val employeeNumber: String,
-        val salary: String,
-        val department: String
+        var id: String,
+        var employeeNumber: String,
+        var salary: String,
+        var department: String
 )
